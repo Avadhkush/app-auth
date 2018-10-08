@@ -1,0 +1,16 @@
+<form (submit)="loginUser($event)">
+  <div class="login-form">
+    <div class="form-group">
+        <label>User Name</label>
+        <input type="text" id="txtuserName" name="txtuserName" placeholder="Enter User Name" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" id="txtpassword" name="txtpassword" placeholder="Password" class="form-control" />
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Login" class="btn btn-primary"  />&nbsp;
+      <input type="reset" value="Reset" class="btn btn-warning"  />
+    </div>
+  </div>
+</form>
